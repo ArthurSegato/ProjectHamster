@@ -3,6 +3,10 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 public class MenuManager : MonoBehaviour
 {
+    public void IniciarJogo()
+    {
+        SceneManager.LoadScene("CapituloUm");
+    }
     public void AbrirCreditos()
     {
         SceneManager.LoadScene("Creditos");
